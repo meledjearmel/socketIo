@@ -1,0 +1,220 @@
+body {
+    font-family: 'Lato', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+
+.br-sideleft.spend {
+    width: 100vw;
+    max-width: 305px;
+}
+
+.contact-list .contact-list-link .content-info-float, .contact-list .contact-list-link .content-info-float .contact-person, .contact-list .contact-list-link .content-info-float .tx-info {
+    display: none !important;
+}
+
+.collapsed-menu .br-sideleft {
+    width: 60px;
+}
+
+.collapsed-menu .br-sideleft .contact-list {
+    padding: 0;
+    padding-top: 10px;
+}
+
+.collapsed-menu .contact-list .contact-list-link .contact-person, .collapsed-menu .contact-list .contact-list-link .tx-info {
+    display: none;
+}
+
+.collapsed-menu .br-sideleft .sidebar-label {
+    display: none;
+}
+
+.collapsed-menu .contact-list-link .d-flex {
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+.collapsed-menu .contact-list .contact-list-link:hover > .content-info-float .contact-person, .collapsed-menu .contact-list .contact-list-link:hover > .content-info-float .tx-info {
+    display: block !important;
+}
+
+.collapsed-menu .contact-list .contact-list-link:hover > .content-info-float {
+    display: flex !important;
+}
+
+.content-info-float {
+    top: 0;
+    width: max-content;
+    background: #1D2939;
+    left: 70px;
+    border-radius: 8px;
+}
+
+.content-info-float::before {
+    content: '' !important;
+    position: absolute !important;
+    background: #1D2939 !important;
+    height: 16px;
+    width: 16px;
+    transform: rotate(45deg);
+    left: -8px;
+    z-index: 0;
+}
+
+.collapsed-menu .tab-content .tab-pane {
+    overflow: visible !important;
+}
+
+.contact-list-link .content-info-float .contact-person {
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+.br-mailbox-body {
+    margin-left: 305px;
+    height: calc(100% - 30px);
+}
+
+.email.collapsed-menu .br-mailbox-body {
+    margin-left: 60px;
+}
+
+.br-msg-header {
+    background: #1D2939 !important;
+}
+
+.br-msg-body {
+    margin: 30px;
+    padding: 0;
+    box-shadow: none;
+    border: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100%;
+    background: transparent;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.tchat-box:hover .br-msg-body {
+    -ms-overflow-style: block;  /* IE and Edge */
+    scrollbar-width: block;  /* Firefox */
+}
+
+.tchat-box:hover .br-msg-body::-webkit-scrollbar {
+    display: block;
+}
+.br-msg-body::-webkit-scrollbar {
+    width: 5px;
+}
+.br-msg-body::-webkit-scrollbar {
+    display: none;
+}
+.br-msg-body::-webkit-scrollbar-thumb {
+    background: #1D2939;
+    border-radius: 9px;
+}
+.br-msg-body::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+body.email {
+    height: calc(100vh - 60px);
+}
+
+.tchat-box {
+    position: relative;
+    bottom: 0;
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: calc(100% - 63px);
+}
+
+.choose-items {
+    height: 50px;
+    width: 50px;
+    background: #fff;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.message-text .chat-2, .message-text .chat-2 + .chat-time {
+    align-self: flex-end;
+}
+
+.message-text > div {
+    width: fit-content;
+}
+
+.message-text .chat-time {
+    width: fit-content;
+}
+
+.message-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.widget-6 .card-body {
+    background-color: transparent;
+}
+
+.widget-6 .chat-1 {
+    background-color: #fff;
+}
+
+.card-header.note-toolbar {
+    background: #1D2939 !important;
+}
+
+.note-editor.note-frame {
+    border: none !important;
+}
+
+.color-dark {
+    background: #1D2939 !important;
+}
+
+.tchat-box button.btn.btn-info.send {
+    width: 5rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    background: #17A2B8;
+    color: #fff;
+    border: 2px solid #17A2B8;
+    border-radius: 6px;
+    padding: 0;
+}
+
+.tchat-box .submit {
+    display: flex;
+    justify-content: center;
+    align-content: end;
+    align-items: flex-end;
+}
+
+.fade-mask {
+    width: 100%;
+    height: 100%;
+    background: #000001bf;
+    z-index: 10000;
+    top: 0;
+}
+
+.mask {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notification-circle {
+    display: none;
+}
+
+.notifications-list media {
+    align-items: center;
+}
